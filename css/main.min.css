@@ -1209,7 +1209,8 @@ template {
   }
 }
 .convenience {
-  padding: 150px 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-color: #edf3f8;
 }
 
@@ -1307,8 +1308,13 @@ template {
   }
 }
 .simple {
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 140px;
   background-color: #edf3f8;
+  background-image: url("../../images/about-bg.png");
+  background-size: 750px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 684px) calc(50% - 0px);
 }
 
 .simple__inner {
@@ -1413,5 +1419,157 @@ template {
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
+  }
+}
+.servises {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #edf3f8;
+}
+
+.servises__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.servises__item {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servises__item:nth-child(1)::before {
+  display: block;
+  width: 106px;
+  height: 106px;
+  content: "";
+  background-image: url(../../images/intro-many.png);
+  margin-bottom: 32px;
+}
+
+.servises__item:nth-child(2):before {
+  display: block;
+  width: 106px;
+  height: 106px;
+  background-image: url(../../images/banking.png);
+  margin-bottom: 32px;
+  content: "";
+}
+
+.servises__item:nth-child(3):before {
+  display: block;
+  width: 106px;
+  height: 106px;
+  background-image: url(../../images/payments.png);
+  margin-bottom: 32px;
+  content: "";
+}
+
+.servises__subtitle {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.138462px;
+  color: #36536B;
+}
+
+.servises__text {
+  max-width: 350px;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6C8294;
+}
+
+@media only screen and (max-width: 1090px) {
+  .servises__item {
+    width: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servises__item:nth-child(1)::before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    content: "";
+    background-image: url(../../images/intro-many.png);
+    margin-bottom: 32px;
+  }
+
+  .servises__item:nth-child(2):before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    background-image: url(../../images/banking.png);
+    margin-bottom: 32px;
+    content: "";
+  }
+
+  .servises__item:nth-child(3):before {
+    display: block;
+    width: 106px;
+    height: 106px;
+    background-image: url(../../images/payments.png);
+    margin-bottom: 32px;
+    content: "";
+  }
+
+  .servises__subtitle {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+  }
+
+  .servises__text {
+    max-width: 350px;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .servises__list {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .servises__item {
+    margin: 0 auto;
+  }
+
+  .servises__item {
+    margin-bottom: 30px;
+  }
+
+  .servises__item:nth-child(3) {
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=main.min.css.map */
