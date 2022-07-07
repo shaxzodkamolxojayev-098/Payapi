@@ -1558,7 +1558,6 @@ template {
   .servises__list {
     flex-direction: column;
     margin: 0 auto;
-    width: 350px;
   }
 
   .servises__item {
@@ -1571,5 +1570,165 @@ template {
 
   .servises__item:nth-child(3) {
     margin-bottom: 0;
+  }
+}
+.demo {
+  padding: 96px 0;
+  background-color: #edf3f8;
+}
+
+.demo__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.demo__tetle {
+  max-width: 445px;
+  margin: 0;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+
+.demo__input {
+  width: 445px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 27px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  border-radius: 24px;
+  color: #36536B;
+  mix-blend-mode: normal;
+  border: none;
+}
+
+.demo__button {
+  width: 173px;
+  padding: 15px 25px;
+  margin-left: -173px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  background: #ba4270;
+  border-radius: 24px;
+  border: none;
+}
+
+.demo__button:hover {
+  background: #DA6D97;
+  cursor: pointer;
+}
+
+.demo__button:active {
+  background: #BA4270;
+}
+
+@media only screen and (max-width: 850px) {
+  .demo__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .demo__tetle {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .demo__tetle {
+    max-width: 328px;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+  }
+
+  .demo__input {
+    width: 327px;
+    margin-bottom: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 27px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 24px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    border: none;
+  }
+
+  .demo__button {
+    display: block;
+    width: 327px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+    background: #ba4270;
+    border-radius: 24px;
+    border: none;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .demo__tetle {
+    max-width: 270px;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+  }
+
+  .demo__input {
+    width: 270px;
+    margin-bottom: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 27px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    border-radius: 24px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    border: none;
+  }
+
+  .demo__button {
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+    background: #ba4270;
+    border-radius: 24px;
+    border: none;
   }
 }/*# sourceMappingURL=main.css.map */
