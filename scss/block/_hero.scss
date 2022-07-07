@@ -1,7 +1,7 @@
 .hero{
   padding: 75px 0;
   background-color: #edf3f8;
-  background-image: url(../../images/hero-bg-img.png);
+  background-image: url("../../images/hero-bg-img.png");
   background-repeat: no-repeat;
   background-size: 780px;
   background-position: calc(50% + 350px) -310px
@@ -56,12 +56,12 @@
 }
 
 .hero__button:hover{
-  background: #DA6D97;
+  background: #da6d97;
   cursor: pointer;
 }
 
 .hero__button:active{
-  background: #BA4270;
+  background: #ba4270;
 }
 
 .hero__text{
@@ -70,7 +70,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  color: #6C8294;
+  color: #6c8294;
 }
 
 .hero__img{
@@ -127,6 +127,7 @@
 @media only screen and (max-width: 500px) {
 
   .hero__input{
+    display: block;
     width: 300px;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -152,7 +153,7 @@
 
   .hero{
     padding-top: 20px;
-    padding-bottom: 79px;
+    padding-bottom: 50px;
   }
 
   .hero__title{
@@ -166,6 +167,7 @@
   }
 
   .hero__input{
+    display: block;
     width: 200px;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -173,7 +175,7 @@
 
   .hero__button{
     display: block;
-    width: 200px;
+    width: 175px;
     margin: 0 auto;
     margin-bottom: 24px;
   }

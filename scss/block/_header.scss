@@ -4,7 +4,7 @@
   background-color: #edf3f8;
   padding-top: 75px;
   padding-bottom: 75px;
-  background-image: url(../../images/hero-bg-img.png);
+  background-image: url("../../images/hero-bg-img.png");
   background-repeat: no-repeat;
   background-size: 780px;
   background-position: calc(50% + 350px) -110px;
@@ -79,12 +79,13 @@
 }
 
 .header__button:hover {
-  background: #DA6D97;
+  background: #da6d97;
   cursor: pointer;
 }
 
 .header__button:active {
-  background: #BA4270;
+  background: #ba4270;
+  opacity: 0.4;
 }
 
 .header__button{

@@ -90,6 +90,10 @@
 }
 
 @media only screen and (max-width: 470px) {
+  .simple{
+    padding: 50px 0;
+  }
+
   .simple__img{
     border-radius: 15px;
     width: 148px;
@@ -113,9 +117,28 @@
 
   .simple__text{
     width: 270px;
+    margin: 0 auto;
     text-align: center;
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  .simple__img-box{
+    margin: 0 auto;
+  }
+
+  .simple__img{
+    display: block;
+    width: 148px;
+    margin: 0 auto;
+  }
+
+  .simple__phone-img{
+   display: block;
+    width: 148px;
+    margin: 0 auto;
   }
 }
